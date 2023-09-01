@@ -1,4 +1,4 @@
-
+/* margins!!! */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -21,20 +21,18 @@ header h1 {
     margin: 0;
 }
 
-
+/* center nav , horizontal at vertical */
 nav {
     background-color: #e71d1d;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex; 
+    list-style: none;
+    display: flex;
 }
 
 nav li {
@@ -47,6 +45,7 @@ nav a {
     font-weight: bold;
 }
 
+/* Style :) */
 section {
     background-color: #fff;
     margin: 20px;
@@ -61,7 +60,7 @@ h2 {
 }
 
 ul {
-    list-style-type: disc;
+    list-style: disc;
     padding-left: 20px;
 }
 
@@ -69,24 +68,25 @@ address {
     font-style: normal;
 }
 
-
-#projects,
-#hire {
+/* project at hire haha */
+#projects, #hire {
     background-color: #f2f2f2;
     text-align: center;
     padding: 20px;
 }
 
-
+/* links naman */
 section a {
     color: #007bff;
     text-decoration: none;
 }
 
-
+/* Hover effect for links */
 section a:hover {
     text-decoration: underline;
 }
+
+/* para sa contact */
 #contact-form {
     max-width: 400px;
     margin: 0 auto;
